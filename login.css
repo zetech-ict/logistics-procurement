@@ -4,6 +4,28 @@
     box-sizing: border-box;
   }
 
+   .homepage{
+    background: none;
+   }
+
+  .header{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 37, 124);
+
+}
+
+.banner{
+    background-image: url("home.jpg"); 
+    background-size: cover;
+}
+
+.homepageconatainer{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
   .loginheader h1{
     text-align: center;
     font-size: 100px;
@@ -117,3 +139,53 @@
   .login .checkBox{
     margin-top: 30px !important;
   }
+
+  .dashboard_content_container{
+    width: 78%;
+  }
+
+  .dashboard_logo{
+    color: #fa1750;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+  }
+
+.dashboard_sidebar_user img{
+  width: 68px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #f685ad;
+  margin-right: 5px;
+}
+
+.dashboard_sidebar_user span{
+  top: 20%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+}
+
+.dashboard_menu_lists{
+  padding: 10px;
+  margin: top 20px; ;
+}
+
+.dashboard_menu_lists li{
+  padding: 15px 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.dashboard_menu_lists a{
+  text-decoration: none;
+  color: #fff;
+
+}
