@@ -37,16 +37,19 @@
                     </div>
                     <form class="signUp" action="insert.php" method="post">
                         <div class="formGroup">
-                            <input type="text" id="userName" placeholder="User Name" autocomplete="off" />
+                            <input type="text" placeholder="First_name" name="first_name" required autocomplete="off" />
+                        </div>
+                        <div class="formGroup">
+                            <input type="text" placeholder=" Last_name" name="last_name" required autocomplete="off" />
                         </div>
                         <div class="formGroup">
                             <input type="email" placeholder="Email ID" name="email" required autocomplete="off" />
                         </div>
                         <div class="formGroup">
-                            <input type="password" id="pass" placeholder="Password" required autocomplete="off" />
+                            <input type="password" placeholder="Password" name="pass" required autocomplete="off" />
                         </div>
                         <div class="formGroup">
-                            <input type="password" id="cofirmPass" placeholder="Confirm Password" required
+                            <input type="password" placeholder="Confirm password" name="confirmpass" required
                                 autocomplete="off" />
                         </div>
                         <div class="checkBox">
@@ -63,8 +66,9 @@
                         <div class="formGroup">
                             <input type="email" placeholder="Email ID" name="email" required autocomplete="off" />
                         </div>
+
                         <div class="formGroup">
-                            <input type="password" id="password" placeholder="Password" required autocomplete="off" />
+                            <input type="password" placeholder="Password" name="pass" required autocomplete="off" />
                         </div>
                         <div class="checkBox">
                             <input type="checkbox" name="checkbox" id="checkbox" />
